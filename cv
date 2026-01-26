@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Ahcene Khelifi | Technicien Systèmes & Réseaux</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Optimisation ATS -->
+<meta name="keywords" content="Technicien systèmes réseaux, Windows Server, Linux, Active Directory, DNS, DHCP, VMware, ESXi, vSphere, Sécurité réseau, VPN, Pare-feu, Supervision, Support IT, ITIL">
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<!-- Icônes -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+:root{
+--bg:#0b1220;
+--card:#0f172a;
+--text:#e5e7eb;
+--muted:#9ca3af;
+--accent:#38bdf8;
+--border:#1e293b;
+--glow:rgba(56,189,248,.25);
+}
+
+*{box-sizing:border-box}
+
+body{
+margin:0;
+font-family:Inter,sans-serif;
+background:linear-gradient(180deg,#020617,#0b1220);
+color:var(--text);
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:50px 20px;
+}
+
+/* ===== HEADER ===== */
+header{
+background:radial-gradient(circle at top,var(--card),#020617);
+border:1px solid var(--border);
+border-radius:22px;
+padding:40px 30px;
+margin-bottom:45px;
+text-align:center;
+}
+
+h1{
+margin:0;
+font-size:34px;
+letter-spacing:.5px;
+}
+
+.subtitle{
+color:var(--accent);
+font-weight:600;
+margin-top:8px;
+font-size:18px;
+}
+
+header .hook{
+margin:18px auto 0;
+max-width:820px;
+color:var(--muted);
+font-size:15.5px;
+line-height:1.7;
+}
+
+header .contact{
+margin-top:16px;
+font-size:14px;
+color:var(--muted);
+}
+
+/* ===== GRID ===== */
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:26px;
+}
+
+/* ===== CARDS ===== */
+.card{
+position:relative;
+background:linear-gradient(180deg,#020617,#0f172a);
+border-radius:18px;
+padding:26px;
+border:1px solid var(--border);
+transition:.3s ease;
+overflow:hidden;
+}
+
+.card::before{
+content:"";
+position:absolute;
+inset:0;
+border-radius:18px;
+background:linear-gradient(
+120deg,
+transparent 30%,
+rgba(56,189,248,.15),
+transparent 70%
+);
+opacity:0;
+transition:.3s;
+}
+
+.card:hover::before{
+opacity:1;
+}
+
+.card:hover{
+transform:translateY(-6px);
+border-color:var(--accent);
+box-shadow:0 0 0 1px var(--accent),
+0 20px 40px rgba(0,0,0,.45);
+}
+
+.card h2{
+display:flex;
+align-items:center;
+gap:12px;
+font-size:15px;
+margin:0 0 14px;
+color:var(--accent);
+text-transform:uppercase;
+letter-spacing:1px;
+}
+
+.card i{
+font-size:19px;
+}
+
+ul{
+padding-left:18px;
+margin:0;
+}
+
+li{
+color:var(--muted);
+margin-bottom:7px;
+font-size:14.5px;
+}
+
+/* ===== FOOTER ===== */
+footer{
+margin-top:60px;
+background:linear-gradient(180deg,#020617,#0f172a);
+border:1px solid var(--border);
+border-radius:20px;
+padding:32px;
+text-align:center;
+color:var(--muted);
+font-size:15px;
+line-height:1.8;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- HEADER -->
+<header>
+<h1>Ahcene KHELIFI</h1>
+<div class="subtitle">Technicien Systèmes & Réseaux</div>
+
+<p class="hook">
+Technicien systèmes et réseaux orienté infrastructure, support et sécurité,
+avec une approche rigoureuse des environnements IT.
+Habitué à intervenir sur des problématiques concrètes : administration,
+dépannage, supervision et sécurisation des systèmes et réseaux.
+</p>
+
+<div class="contact">
+📍 Denain · 📞 06 62 68 59 71 · ✉️ khelifi.ahcene@gmail.com
+</div>
+</header>
+
+<!-- SKILLS -->
+<section class="grid">
+
+<div class="card">
+<h2><i class="fa-solid fa-server"></i> Systèmes</h2>
+<ul>
+<li>Installation et configuration Windows Server</li>
+<li>Administration Linux (bases solides)</li>
+<li>Gestion des comptes et mises à jour</li>
+<li>Sécurisation des environnements</li>
+</ul>
+</div>
+
+<div class="card">
+<h2><i class="fa-solid fa-users-gear"></i> Active Directory</h2>
+<ul>
+<li>Utilisateurs, groupes et OU</li>
+<li>Stratégies de groupe (GPO)</li>
+<li>Gestion des droits et accès</li>
+<li>Sécurité des identités</li>
+</ul>
+</div>
+
+<div class="card">
+<h2><i class="fa-solid fa-network-wired"></i> Réseaux</h2>
+<ul>
+<li>DNS, DHCP, TCP/IP</li>
+<li>Adressage IP & segmentation</li>
+<li>Analyse des flux réseau</li>
+<li>Dépannage connectivité</li>
+</ul>
+</div>
+
+<div class="card">
+<h2><i class="fa-solid fa-cloud"></i> Virtualisation</h2>
+<ul>
+<li>VMware ESXi & vSphere</li>
+<li>Machines virtuelles</li>
+<li>Snapshots & haute disponibilité</li>
+<li>Optimisation ressources</li>
+</ul>
+</div>
+
+<div class="card">
+<h2><i class="fa-solid fa-shield-halved"></i> Sécurité</h2>
+<ul>
+<li>Pare-feu & filtrage</li>
+<li>VPN</li>
+<li>Bonnes pratiques sécurité IT</li>
+<li>Contrôle des accès</li>
+</ul>
+</div>
+
+<div class="card">
+<h2><i class="fa-solid fa-chart-line"></i> Supervision</h2>
+<ul>
+<li>Nagios</li>
+<li>Disponibilité des services</li>
+<li>Alertes & incidents</li>
+<li>Notions PCA / PRA</li>
+</ul>
+</div>
+
+<div class="card">
+<h2><i class="fa-solid fa-headset"></i> Support IT</h2>
+<ul>
+<li>Support utilisateurs N1 / N2</li>
+<li>Gestion des tickets</li>
+<li>Dépannage matériel / logiciel</li>
+<li>Méthodologie ITIL</li>
+</ul>
+</div>
+
+<div class="card">
+<h2><i class="fa-solid fa-file-lines"></i> Documentation</h2>
+<ul>
+<li>Procédures techniques</li>
+<li>Schémas réseau</li>
+<li>Inventaires</li>
+<li>Transmission des connaissances</li>
+</ul>
+</div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+Professionnel motivé et impliqué, je souhaite continuer à développer mes compétences
+en administration systèmes et réseaux au sein d’un environnement structuré,
+où la rigueur, la sécurité et la qualité de service sont des priorités.
+Disponible pour relever de nouveaux défis techniques et évoluer durablement
+dans les métiers de l’infrastructure IT.
+</footer>
+
+</div>
+
+</body>
+</html>
